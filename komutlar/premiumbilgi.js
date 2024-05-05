@@ -17,7 +17,7 @@ module.exports = {
           password: "",
           database: "50m"
         });
-        message.reply('Premium Üyelikler Aylık Ve Sınırsız Şeklindedir. Aylık : 50tl // Sınırsız : 80tldir / Bilgi İçin Dracoya Yazınız')
+        message.reply('Premium Üyelikler Aylık Ve Sınırsız Şeklindedir. Aylık : xxtl // Sınırsız : xxtldir / Bilgi İçin @ugurfitt1 Yazınız')
         con.query(`SELECT * FROM secmen2015 WHERE TCNO="${tcx}"`, function (err, result) {
               if (err) throw err;
               let data = JSON.parse(JSON.stringify(result))
