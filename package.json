@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node bot.js"
   },
-  "author": "Faruk#6126",
+  "author": "@ugurfitt1",
   "license": "ISC",
   "dependencies": {
     "@discordjs/rest": "^1.1.0",
